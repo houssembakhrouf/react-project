@@ -37,9 +37,10 @@ export default function App() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <h1 style={{ textAlign:'center', color:'red' }}>cards</h1>
    <div style={{display:'flex' , marginBlock:'20px', marginLeft:'10px'}}>
     <Card style={{ width: '18rem', marginLeft:'10px' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="./logo192.png" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -50,7 +51,7 @@ export default function App() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' , marginLeft:'10px'}}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="./logo192.png" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -61,7 +62,7 @@ export default function App() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' , marginLeft:'10px'}}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="./logo192.png" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -71,17 +72,7 @@ export default function App() {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' , marginLeft:'10px'}}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
+  
     
     </div>
 
